@@ -2,7 +2,7 @@
 
 baseURL = "https://ArrogantL.github.io/"
 languageCode = "en"
-title = "Hi, I'm Yang Wu"
+title = "Hi, I'm Jinglong Gao"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 publishDir = "docs"
@@ -24,7 +24,7 @@ publishDir = "docs"
 
     [params.profile]
         enable = true
-        name = "Yang Wu"
+        name = "Jinglong Gao"
         tagline = "PhD Student"
         avatar = "me.png"
 
@@ -44,12 +44,12 @@ publishDir = "docs"
         #text = "0123 4567 890"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:ywu@ir.hit.edu.cn"
+        url = "mailto:jlgao@ir.hit.edu.cn"
         text = "Mail"
-        [[params.contact.list]]
-        icon = "fab fa-google"
-        url = "https://scholar.google.com/citations?user=uMAvnHkAAAAJ&hl=zh-CN"
-        text = "Google Scholar"
+#        [[params.contact.list]]
+#        icon = "fab fa-google"
+#        url = "https://scholar.google.com/citations?user=uMAvnHkAAAAJ&hl=zh-CN"
+#        text = "Google Scholar"
 
 
 
@@ -83,32 +83,32 @@ publishDir = "docs"
         [[params.education.list]]
         degree = "PhD - Computer Science"
         university = "Harbin Institute of Technology"
-        dates = "2019 - Present"
+        dates = "2021 - Present"
         [[params.education.list]]
         degree = "Visiting Student"
-        university = "National University of Singapore"
+        university = "Huawei Cloud, AI Lab"
         dates = "2021 - 2022"
         [[params.education.list]]
         degree = "Master - Computer Science"
         university = "Harbin Institute of Technology"
-        dates = "2018 - 2019"
+        dates = "2020 - 2021"
         [[params.education.list]]
-        degree = "Bachelor - Software Engineering"
-        university = "JiLin University"
-        dates = "2014 - 2018"
+        degree = "Bachelor - Computer Science"
+        university = "Harbin Institute of Technology"
+        dates = "2016 - 2020"
 
 
 
 
 
 
-    [params.awards]
-        enable = true
-
-        [[params.awards.list]]
-        name = "2021 Best Paper Award for IEEE Multimedia"
-        body = "IEEE Computer Society Publications Board"
-        date = "2021"
+#    [params.awards]
+#        enable = true
+#
+#        [[params.awards.list]]
+#        name = "2021 Best Paper Award for IEEE Multimedia"
+#        body = "IEEE Computer Society Publications Board"
+#        date = "2021"
 
 
 
@@ -133,7 +133,7 @@ publishDir = "docs"
         enable = true
 
         [[params.interests.list]]
-        name = "Multimodal Sentiment Analysis"
+        name = "Causal Reasoning"
         [[params.interests.list]]
         name = "Large Language Model"
 
@@ -147,7 +147,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). I am co-advised by Prof. Bing Qin and Prof. Yanyan Zhao. My research interests include multimodal sentiment analysis and large language model."
+        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). I am co-advised by Prof. Ting Liu and Prof. Xiao Ding. My research interests include causal reasoning and large language model."
 
 
 
@@ -244,53 +244,11 @@ publishDir = "docs"
         [[params.information.list]]
 
         title = "Improving Cross-Task Generalization with Step-by-Step Instructions."
-        name = "Yang Wu, Yanyan Zhao, Zhongyang Li, Bing Qin, Kai Xiong"        
+        name = "Jinglong Gao, Yanyan Zhao, Zhongyang Li, Bing Qin, Kai Xiong"
         publisher = "Arxiv"
         href = "https://arxiv.org/pdf/2305.04429.pdf"
     
         details = "We propose to incorporate the step-by-step instructions to help language models to decompose the tasks, which can provide the detailed and specific procedures for completing the target tasks. The step-by-step instructions are obtained automatically by prompting ChatGPT, which are further combined with the original instructions to tune language models. The extensive experiments on SUP-NATINST show that the high-quality step-by-step instructions can improve cross-task generalization across different model sizes."
-
-
-        [[params.information.list]]
-
-        title = "Modeling Incongruity between Modalities for Multimodal Sarcasm Detection."
-        name = "Yang Wu, Yanyan Zhao, Xin Lu, Bing Qin, Yin Wu, Jian Sheng, Jinlong Li"
-        publisher = "2021 Best Paper Award for IEEE Multimedia"
-        href = "https://www.computer.org/publications/best-paper-award-winners"
-
-        details = "We propose the incongruity-aware attention network (IWAN), which detects sarcasm by focusing on the word-level incongruity between modalities via a scoring mechanism. This scoring mechanism could assign larger weights to words with incongruent modalities. Experimental results demonstrate the effectiveness of our proposed IWAN model, which not only achieves the state-of-the-art performance on the MUStARD dataset but also offers the advantages of interpretability."
-
-        [[params.information.list]]
-        title = "Sentiment Word Aware Multimodal Refinement for Multimodal Sentiment Analysis with ASR Errors."
-        name = "Yang Wu, Yanyan Zhao, Hao Yang, Song Chen, Bing Qin, Xiaohuan Cao, Wenting Zhao"
-        publisher = "Findings of ACL 2022"
-        href = "https://aclanthology.org/2022.findings-acl.109/"
-
-        details = "We propose the sentiment word aware multimodal refinement model (SWRM), which can dynamically refine the erroneous sentiment words by leveraging multimodal sentiment clues.  We conduct extensive experiments on the real-world datasets including MOSI-Speechbrain, MOSI-IBM, and MOSI-iFlytek and the results demonstrate the effectiveness of our model, which surpasses the current state-of-the-art models on three datasets. Furthermore, our approach can be adapted for other multimodal feature fusion models easily. "
-
-        [[params.information.list]]
-        title = "A Text-Centered Shared-Private Framework via Cross-Modal Prediction for Multimodal Sentiment Analysis."
-        name = "Yang Wu, Zijie Lin, Yanyan Zhao, Bing Qin, Li-Nan ZHU"
-        publisher = "Findings of ACL 2021"
-        href = "https://aclanthology.org/2021.findings-acl.417/"
-
-        details = "We propose a text-centered shared-private framework (TCSP) for multimodal fusion, which consists of the cross-modal prediction and sentiment regression parts. Experiments on the MOSEI and MOSI datasets demonstrate the effectiveness of our shared-private framework, which outperforms all baselines. Furthermore, our approach provides a new way to utilize the unlabeled data for multimodal sentiment analysis."
-
-        [[params.information.list]]
-        title = "Leveraging Multi-modal Interactions among the Intermediate Representations of Deep Transformers for Emotion Recognition."
-        name = "Yang Wu, Zhenyu Zhang, Pai Peng, Yanyan Zhao, Bing Qin"
-        publisher = "MuSe'22"
-        href = "https://dl.acm.org/doi/abs/10.1145/3551876.3554813"
-
-        details = "Existing end-to-end models typically fuse the uni-modal representations in the last layers without leveraging the multi-modal interactions among the intermediate representations. In this paper, we propose the multi-modal Recurrent Intermediate-Layer Aggregation (RILA) model to explore the effectiveness of leveraging the multi-modal interactions among the intermediate representations of deep pre-trained transformers for end-to-end emotion recognition."
-
-       [[params.information.list]]
-        title = "Locate and Combine: A Two-Stage Framework for Aspect-Category Sentiment Analysis."
-        name = "Yang Wu, Zhenyu Zhang, Yanyan Zhao and Bing Qin"
-        publisher = "NLPCC 2021"
-        href = "https://link.springer.com/chapter/10.1007/978-3-030-88480-2_47"
-
-        details = 'We propose a two-stage strategy named Locate-Combine(LC) to utilize the aspect term in a more straightforward way, which ﬁrst locates the aspect term and then takes it as the bridge to ﬁnd the related sentiment words. The experimental results on the public datasets show that the proposed two-stage strategy is effective, which achieves state-of-the-art performance. Furthermore, our model can output explainable intermediate results for model analysis.'
 
 
 
