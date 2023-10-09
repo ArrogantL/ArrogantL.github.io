@@ -5,10 +5,6 @@
     <link>https://ArrogantL.github.io/</link>
     <description>Recent content on Hi, I&#39;m Jinglong Gao</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://ArrogantL.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://ArrogantL.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

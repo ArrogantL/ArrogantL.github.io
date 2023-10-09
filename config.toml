@@ -26,7 +26,7 @@ publishDir = "docs"
         enable = true
         name = "Jinglong Gao"
         tagline = "PhD Student"
-        avatar = "me.jpg"
+        avatar = "me.png"
 
 
 
@@ -46,10 +46,10 @@ publishDir = "docs"
         icon = "fas fa-envelope-square"
         url = "mailto:jlgao@ir.hit.edu.cn"
         text = "Mail"
-#        [[params.contact.list]]
-#        icon = "fab fa-google"
-#        url = "https://scholar.google.com/citations?user=uMAvnHkAAAAJ&hl=zh-CN"
-#        text = "Google Scholar"
+        [[params.contact.list]]
+        icon = "fab fa-google"
+        url = "https://scholar.google.com/citations?user=jaVvkHIAAAAJ&hl=zh-CN"
+        text = "Google Scholar"
 
 
 
@@ -243,12 +243,21 @@ publishDir = "docs"
 
         [[params.information.list]]
 
-        title = "Improving Cross-Task Generalization with Step-by-Step Instructions."
-        name = "Jinglong Gao, Yanyan Zhao, Zhongyang Li, Bing Qin, Kai Xiong"
-        publisher = "Arxiv"
-        href = "https://arxiv.org/pdf/2305.04429.pdf"
+        title = "Is ChatGPT a Good Causal Reasoner? A Comprehensive Evaluation"
+        name = "Jinglong Gao, Xiao Ding, Bing Qin, Ting Liu"
+        publisher = "Findings of EMNLP 2023"
+        href = "https://arxiv.org/pdf/2305.07375"
     
-        details = "We propose to incorporate the step-by-step instructions to help language models to decompose the tasks, which can provide the detailed and specific procedures for completing the target tasks. The step-by-step instructions are obtained automatically by prompting ChatGPT, which are further combined with the original instructions to tune language models. The extensive experiments on SUP-NATINST show that the high-quality step-by-step instructions can improve cross-task generalization across different model sizes."
+        details = "Despite the impressive emerging ability of ChatGPT in various NLP tasks, it is unclear how well ChatGPT performs in causal reasoning. In this paper, we conduct the first comprehensive evaluation of the ChatGPT's causal reasoning capabilities."
+
+        [[params.information.list]]
+
+        title = "Discrimloss: a universal loss for hard samples and incorrect samples discrimination"
+        name = "Tingting Wu, Xiao Ding, Hao Zhang, Jinglong Gao, Minji Tang, Li Du, Bing Qin, Ting Liu"
+        publisher = "IEEE Transactions on Multimedia 2023"
+        href = "https://arxiv.org/pdf/2208.09884"
+
+        details = "Previous curriculum learning work takes incorrect samples as generic hard ones without discriminating between hard samples and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function DiscrimLoss."
 
 
 
