@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://albertwy.github.io/"
+baseURL = "https://ArrogantL.github.io/"
 languageCode = "en"
 title = "Hi, I'm Yang Wu"
 theme = "hugo-devresume-theme"
@@ -300,8 +300,8 @@ publishDir = "docs"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "https://github.com/albertwy"
-        title = "albertwy"
+        url = "https://github.com/ArrogantL"
+        title = "ArrogantL"
  
 
 
