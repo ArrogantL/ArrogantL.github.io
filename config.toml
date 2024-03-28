@@ -257,7 +257,8 @@ publishDir = "docs"
         publisher = "Findings of EMNLP 2023"
         href = "https://aclanthology.org/2023.findings-emnlp.743/"
     
-        details = "Despite the impressive emerging ability of ChatGPT in various NLP tasks, it is unclear how well ChatGPT performs in causal reasoning. In this paper, we conduct the first comprehensive evaluation of the ChatGPT's causal reasoning capabilities."
+        details = "Causal reasoning ability is crucial for numerous NLP applications. Despite the impressive emerging ability of ChatGPT in various NLP tasks, it is unclear how well ChatGPT performs in causal reasoning. In this paper, we conduct the first comprehensive evaluation of the ChatGPT’s causal reasoning capabilities. Experiments show that ChatGPT is not a good causal reasoner, but a good causal interpreter. Besides, ChatGPT has a serious hallucination on causal reasoning, possibly due to the reporting biases between causal and non-causal relationships in natural language, as well as ChatGPT’s upgrading processes, such as RLHF. The In-Context Learning (ICL) and Chain-of-Thought (COT) techniques can further exacerbate such causal hallucination. Additionally, the causal reasoning ability of ChatGPT is sensitive to the words used to express the causal concept in prompts, and close-ended prompts perform better than open-ended prompts. For events in sentences, ChatGPT excels at capturing explicit causality rather than implicit causality, and performs better in sentences with lower event density and smaller lexical distance between events."
+#        details = "Despite the impressive emerging ability of ChatGPT in various NLP tasks, it is unclear how well ChatGPT performs in causal reasoning. In this paper, we conduct the first comprehensive evaluation of the ChatGPT's causal reasoning capabilities."
 
         [[params.information.list]]
 
@@ -266,13 +267,14 @@ publishDir = "docs"
         publisher = "IEEE Transactions on Multimedia 2023"
         href = "https://arxiv.org/pdf/2208.09884"
 
-        details = "Previous curriculum learning work takes incorrect samples as generic hard ones without discriminating between hard samples and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function DiscrimLoss."
+#        details = "Previous curriculum learning work takes incorrect samples as generic hard ones without discriminating between hard samples and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function DiscrimLoss."
+        details = "Given data with label noise (i.e., incorrect data), deep neural networks would gradually memorize the label noise and impair model performance. To relieve this issue, curriculum learning is proposed to improve model performance and generalization by ordering training samples in a meaningful (e.g., easy to hard) sequence. Previous work takes incorrect samples as generic hard ones without discriminating between hard samples (i.e., hard samples in correct data) and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function DiscrimLoss, on top of the existing task loss. Its main effect is to automatically and stably estimate the importance of easy samples and difficult samples (including hard and incorrect samples) at the early stages of training to improve the model performance. Then, during the following stages, DiscrimLoss is dedicated to discriminating between hard and incorrect samples to improve the model generalization. Such a training strategy can be formulated dynamically in a self-supervised manner, effectively mimicking the main principle of curriculum learning. Experiments on image classification, image regression, text sequence regression, and event relation reasoning demonstrate the versatility and effectiveness of our method, particularly in the presence of diversified noise levels."
 
         [[params.information.list]]
 
         title = "(Demo) Chinese-English Causality Event Generation Demonstration System"
         name = "Jinglong Gao, Zhongyang Li, Xiao Ding"
-        publisher = "SCIR"
+        publisher = "SCIR 2020"
         href = "http://221.207.166.58:8004"
 
         details = "The demonstration system is capable of generating multiple possible causes and effects of input events. The causal relationships between events are essential pieces of knowledge in the causal graph. Existing causal knowledge acquisition mostly relies on extraction methods, such as extracting causal event pairs from text through pattern matching, statistical machine learning, or deep learning methods. Extraction-based methods involve acquiring and recording existing knowledge from the world, rather than creating new knowledge. Therefore, we propose a new approach to acquiring causal knowledge—based on generative methods—as an important complement to traditional extraction-based causal knowledge acquisition."
