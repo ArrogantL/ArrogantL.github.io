@@ -243,10 +243,23 @@ publishDir = "docs"
 
         [[params.information.list]]
 
+
+
+
+
+        title = "Towards Generalizable and Faithful Logic Reasoning over Natural Language via Resolution Refutation"
+        name = "Zhouhao Sun, Xiao Ding, Li Du, Bibo Cai, Jinglong Gao, Ting Liu, Bing Qin"
+        publisher = "Coling 2024"
+#        href = "https://arxiv.org/pdf/2305.07375"
+
+        details = "Large language models (LLMs) have achieved significant performance in various natural language reasoning tasks. However, they still struggle with performing first-order logic reasoning over formal logical theories expressed in natural language. This is because the previous LLMs-based reasoning systems have the theoretical incompleteness issue. As a result, it can only address a limited set of simple reasoning problems, which significantly decreases their generalization ability. To address this issue, we propose a novel framework, named Generalizable and Faithful Reasoner (GFaiR), which introduces the paradigm of resolution refutation. Resolution refutation has the capability to solve all first-order logic reasoning problems by extending reasoning rules and employing the principle of proof by contradiction, so our system’s completeness can be improved by introducing resolution refutation. Experimental results demonstrate that our system outperforms previous works by achieving state-of-the-art performances in complex scenarios while maintaining performances in simple scenarios. Besides, we observe that GFaiR is faithful to its reasoning process."
+
+        [[params.information.list]]
+
         title = "Is ChatGPT a Good Causal Reasoner? A Comprehensive Evaluation"
         name = "Jinglong Gao, Xiao Ding, Bing Qin, Ting Liu"
         publisher = "Findings of EMNLP 2023"
-        href = "https://arxiv.org/pdf/2305.07375"
+        href = "https://aclanthology.org/2023.findings-emnlp.743/"
     
         details = "Despite the impressive emerging ability of ChatGPT in various NLP tasks, it is unclear how well ChatGPT performs in causal reasoning. In this paper, we conduct the first comprehensive evaluation of the ChatGPT's causal reasoning capabilities."
 
@@ -258,6 +271,15 @@ publishDir = "docs"
         href = "https://arxiv.org/pdf/2208.09884"
 
         details = "Previous curriculum learning work takes incorrect samples as generic hard ones without discriminating between hard samples and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function DiscrimLoss."
+
+#        [[params.information.list]]
+#
+#        title = "Discrimloss: a universal loss for hard samples and incorrect samples discrimination"
+#        name = "Tingting Wu, Xiao Ding, Hao Zhang, Jinglong Gao, Minji Tang, Li Du, Bing Qin, Ting Liu"
+#        publisher = "IEEE Transactions on Multimedia 2023"
+#        href = "https://arxiv.org/pdf/2208.09884"
+#
+#        details = "Previous curriculum learning work takes incorrect samples as generic hard ones without discriminating between hard samples and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function DiscrimLoss."
 
 
 
