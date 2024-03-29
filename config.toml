@@ -139,7 +139,7 @@ publishDir = "docs"
         [[params.interests.list]]
         name = "Causal Reasoning"
         [[params.interests.list]]
-        name = "Large Language Model"
+        name = "Large Language Models"
 
 
 
