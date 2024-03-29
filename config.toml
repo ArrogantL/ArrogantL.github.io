@@ -86,6 +86,10 @@ publishDir = "docs"
         dates = "2021 - Present"
         [[params.education.list]]
         degree = "Visiting Student"
+        university = "iFLYTEK, AI Lab"
+        dates = "2023 - 2024"
+        [[params.education.list]]
+        degree = "Visiting Student"
         university = "Huawei Cloud, AI Lab"
         dates = "2021 - 2022"
         [[params.education.list]]
@@ -147,7 +151,7 @@ publishDir = "docs"
 
     [params.summary]
         enable = true
-        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). I am co-advised by Prof. Ting Liu and Prof. Xiao Ding. My research interests include causal reasoning and large language model."
+        text = "I'm a Ph.D. student in Research Center for Social Computing and Information Retrieval(SCIR), at Harbin Institute of Technology (HIT, China). I am co-advised by Prof. Ting Liu and Prof. Xiao Ding. My research interests include causal reasoning and large language models."
 
 
 
