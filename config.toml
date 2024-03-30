@@ -79,7 +79,6 @@ publishDir = "docs"
 
     [params.education]
         enable = true
-
         [[params.education.list]]
         degree = "PhD - Computer Science"
         university = "Harbin Institute of Technology"
@@ -243,7 +242,11 @@ publishDir = "docs"
 
     [params.information]
         enable = true
-
+        [[params.information.list]]
+        title = "Under Review & Planned Submission"
+        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
+#        details = "(Under Review, KBS) cognitive theory, causal reasoning"
+#        details = "(Planned Submission, NLPCC）causal logic mining"
 
         [[params.information.list]]
 
@@ -281,7 +284,7 @@ publishDir = "docs"
         publisher = "SCIR 2020"
         href = "http://221.207.166.58:8004"
 
-        details = "The demonstration system is capable of generating multiple possible causes and effects of input events. The causal relationships between events are essential pieces of knowledge in the causal graph. Existing causal knowledge acquisition mostly relies on extraction methods, such as extracting causal event pairs from text through pattern matching, statistical machine learning, or deep learning methods. Extraction-based methods involve acquiring and recording existing knowledge from the world, rather than creating new knowledge. Therefore, we propose a new approach to acquiring causal knowledge—based on generative methods—as an important complement to traditional extraction-based causal knowledge acquisition."
+        details = "The demonstration system is capable of generating multiple possible causes and effects of input events. The causal relationships between events are essential pieces of knowledge in the causal graph. Existing causal knowledge acquisition mostly relies on extraction methods, such as extracting causal event pairs from text through pattern matching, statistical machine learning, or deep learning methods. Extraction-based methods involve acquiring and recording existing knowledge from the world, rather than creating new knowledge. Therefore, we propose a new approach to acquiring causal knowledge—based on generative methods—as an important complement to traditional extraction-based causal knowledge acquisition. http://221.207.166.58:8004/"
 
 
 
