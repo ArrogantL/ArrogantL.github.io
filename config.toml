@@ -244,16 +244,25 @@ publishDir = "docs"
         enable = true
         [[params.information.list]]
         title = "Under Review & Planned Submission"
-        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
-#        details = "(Under Review, KBS) cognitive theory, causal reasoning"
-#        details = "(Planned Submission, NLPCC）causal logic mining"
+#        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
+        details = "- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
+
+
+        [[params.information.list]]
+
+        title = "Self-Evolving GPT: A Lifelong Autonomous Experiential Learner"
+        name = "Jinglong Gao, Xiao Ding, Yiming Cui, Jianbai Zhao, Hepeng Wang, Ting Liu, Bing Qin"
+        publisher = "ACL 2024"
+        href = "https://arrogantl.github.io"
+
+        details = "To improve the performance of large language models (LLMs), researchers have explored providing LLMs with textual task-solving experience via prompts. However, they rely on manual efforts to acquire and apply such experience for each task, which is not feasible for the growing demand for LLMs and the variety of user questions. To address this issue, we design a lifelong autonomous experiential learning framework based on LLMs to explore whether LLMs can imitate human ability for learning and utilizing experience. It autonomously learns and accumulates experience through experience transfer and induction, categorizing the types of input questions to select which accumulated experience to employ for them. Experimental results on six widely used NLP datasets show that our framework performs reliably in each intermediate step and effectively improves the performance of GPT-3.5 and GPT-4. This validates the feasibility of using LLMs to mimic human experiential learning and application capabilities, offering a new path worth further exploration for the evolution of machine intelligence. Additionally, we provide a detailed analysis of the behavior of our framework at each step."
 
         [[params.information.list]]
 
         title = "Towards Generalizable and Faithful Logic Reasoning over Natural Language via Resolution Refutation"
         name = "Zhouhao Sun, Xiao Ding, Li Du, Bibo Cai, Jinglong Gao, Ting Liu, Bing Qin"
-        publisher = "Coling 2024"
-        href = "https://arrogantl.github.io"
+        publisher = "COLING 2024"
+        href = "https://arxiv.org/abs/2404.01677"
 
         details = "Large language models (LLMs) have achieved significant performance in various natural language reasoning tasks. However, they still struggle with performing first-order logic reasoning over formal logical theories expressed in natural language. This is because the previous LLMs-based reasoning systems have the theoretical incompleteness issue. As a result, it can only address a limited set of simple reasoning problems, which significantly decreases their generalization ability. To address this issue, we propose a novel framework, named Generalizable and Faithful Reasoner (GFaiR), which introduces the paradigm of resolution refutation. Resolution refutation has the capability to solve all first-order logic reasoning problems by extending reasoning rules and employing the principle of proof by contradiction, so our system’s completeness can be improved by introducing resolution refutation. Experimental results demonstrate that our system outperforms previous works by achieving state-of-the-art performances in complex scenarios while maintaining performances in simple scenarios. Besides, we observe that GFaiR is faithful to its reasoning process."
 
