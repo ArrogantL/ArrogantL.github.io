@@ -245,7 +245,18 @@ publishDir = "docs"
         [[params.information.list]]
         title = "Under Review & Planned Submission"
 #        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
-        details = "- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
+#        details = "- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
+        details = "- Planned Submission, NLPCC:causal logic mining."
+
+
+        [[params.information.list]]
+
+        title = "Event Causality Identification via Competitive-Cooperative Cognition Networks"
+        name = "Jinglong Gao, Xiao Ding, Zhongyang Li, Ting Liu, Bing Qin"
+        publisher = "Knowledge-Based Systems"
+        href = "https://arrogantl.github.io"
+
+        details = "Identifying the causal relations between events is an important task in natural language processing (NLP). However, existing methods mainly leverage human empirical information about causality from limited labeled corpus or pseudo-data, which leads to an insufficient understanding of the causal mechanism. Inspired by the dual process theory (DPT) in cognitive science, we propose Competitive-Cooperative Cognition Networks (C3Net), including an intuitive causal reasoner, a logical causal reasoner, and a competitive selection mechanism, which directly learn and imitate the framework of the causal identification process in human brains. On the one hand, our model can inject external causal knowledge into the intuitive causal reasoner to improve the performance of intuitive reasoning. On the other hand, it can make explicit logical reasoning in a three-stage paradigm, mimicking human reasoning behavior: association, review, inference. Furthermore, we devise a novel competitive selection mechanism based on private evidence and historical patterns of each reasoner to determine which reasoner's inference is more reliable. Experiments demonstrate that our approach can achieve better performance than previous baseline methods."
 
 
         [[params.information.list]]
