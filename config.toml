@@ -246,7 +246,7 @@ publishDir = "docs"
         title = "Under Review & Planned Submission"
 #        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
 #        details = "- Under Review, NLPCC:causal logic mining.\n- Planned Submission, AAAI: Experience Learning of LLMs."
-        details = "- Planned Submission, AAAI: Experience Learning of LLMs."
+        details = "- Planned Submission, ACL ARR 10: Experience Learning of LLMs."
 
 
         [[params.information.list]]
