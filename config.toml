@@ -246,7 +246,7 @@ publishDir = "docs"
         title = "Under Review & Planned Submission"
 #        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
 #        details = "- Under Review, NLPCC:causal logic mining.\n- Planned Submission, AAAI: Experience Learning of LLMs."
-        details = "- Planned Submission, ACL ARR 10: Experience Learning of LLMs."
+        details = "- Planned Submission, ACL ARR 12: Experience Learning of LLMs.\n- Planned Submission, ACL ARR 02: Cross-Task In-Context Learning."
 
 
         [[params.information.list]]
@@ -273,7 +273,7 @@ publishDir = "docs"
 
         title = "Enhancing Complex Causality Extraction via Improved Subtask Interaction and Knowledge Fusion"
         name = "Jinglong Gao, Chen Lu, Xiao Ding, Zhongyang Li, Ting Liu, Bing Qin"
-        publisher = "NLPCC 2024 oral (CCF-C)"
+        publisher = "NLPCC 2024 outstanding paper (CCF-C)"
         href = "https://arxiv.org/abs/2408.03079"
 
         details = "Event Causality Extraction (ECE) aims at extracting causal event pairs from texts. Despite ChatGPT's recent success, fine-tuning small models remains the best approach for the ECE task. However, existing fine-tuning based ECE methods cannot address all three key challenges in ECE simultaneously: 1) Complex Causality Extraction, where multiple causal-effect pairs occur within a single sentence; 2) Subtask Interaction, which involves modeling the mutual dependence between the two subtasks of ECE, i.e., extracting events and identifying the causal relationship between extracted events; and 3) Knowledge Fusion, which requires effectively fusing the knowledge in two modalities, i.e., the expressive pretrained language models and the structured knowledge graphs. In this paper, we propose a unified ECE framework (UniCE) to address all three issues in ECE simultaneously. Specifically, we design a subtask interaction mechanism to enable mutual interaction between the two ECE subtasks. Besides, we design a knowledge fusion mechanism to fuse knowledge in the two modalities. Furthermore, we employ separate decoders for each subtask to facilitate complex causality extraction. Experiments on three benchmark datasets demonstrate that our method achieves state-of-the-art performance and outperforms ChatGPT with a margin of at least 30% F1-score. More importantly, our model can also be used to effectively improve the ECE performance of ChatGPT via in-context learning."
