@@ -246,14 +246,23 @@ publishDir = "docs"
         title = "Under Review & Planned Submission"
 #        details = "- Under Review, ACL2024: self-evolving, llms, and textual reasoning.\n- Under Review, KBS: cognitive theory, causal reasoning.\n- Planned Submission, NLPCC:causal logic mining."
 #        details = "- Under Review, NLPCC:causal logic mining.\n- Planned Submission, AAAI: Experience Learning of LLMs."
-        details = "- Planned Submission, ACL ARR 12: Experience Learning of LLMs.\n- Planned Submission, ACL ARR 02: Cross-Task In-Context Learning."
+        details = "- Planned Submission, ACL ARR 05: Cross-Task In-Context Learning."
 
+
+        [[params.information.list]]
+
+        title = "ExpeTrans: LLMs Are Experiential Transfer Learners"
+        name = "Jinglong Gao, Xiao Ding, Lingxiao Zou, Bibo Cai, Bing Qin, Ting Liu"
+        publisher = "ACL 2025 (CCF-A)"
+        href = "https://arxiv.org/abs/2505.23191"
+
+        details = "Recent studies provide large language models (LLMs) with textual task-solving experiences via prompts to improve their performance. However, previous methods rely on substantial human labor or time to gather such experiences for each task, which is impractical given the growing variety of task types in user queries to LLMs. To address this issue, we design an autonomous experience transfer framework to explore whether LLMs can mimic human cognitive intelligence to autonomously transfer experience from existing source tasks to newly encountered target tasks. This not only allows the acquisition of experience without extensive costs of previous methods, but also offers a novel path for the generalization of LLMs. Experimental results on 13 datasets demonstrate that our framework effectively improves the performance of LLMs. Furthermore, we provide a detailed analysis of each module in the framework."
 
         [[params.information.list]]
 
         title = "Event Causality Identification via Competitive-Cooperative Cognition Networks"
         name = "Jinglong Gao, Xiao Ding, Zhongyang Li, Ting Liu, Bing Qin"
-        publisher = "Knowledge-Based Systems (中科院一区)"
+        publisher = "Knowledge-Based Systems (中科院一区 TOP 期刊)"
         href = "https://www.sciencedirect.com/science/article/abs/pii/S0950705124007731"
 
         details = "Identifying the causal relations between events is an important task in natural language processing (NLP). However, existing methods mainly leverage human empirical information about causality from limited labeled corpus or pseudo-data, which leads to an insufficient understanding of the causal mechanism. Inspired by the dual process theory (DPT) in cognitive science, we propose Competitive-Cooperative Cognition Networks (C3Net), including an intuitive causal reasoner, a logical causal reasoner, and a competitive selection mechanism, which directly learn and imitate the framework of the causal identification process in human brains. On the one hand, our model can inject external causal knowledge into the intuitive causal reasoner to improve the performance of intuitive reasoning. On the other hand, it can make explicit logical reasoning in a three-stage paradigm, mimicking human reasoning behavior: association, review, inference. Furthermore, we devise a novel competitive selection mechanism based on private evidence and historical patterns of each reasoner to determine which reasoner's inference is more reliable. Experiments demonstrate that our approach can achieve better performance than previous baseline methods."
