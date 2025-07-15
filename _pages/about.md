@@ -17,42 +17,64 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I'm Jinglong Gao, a Ph.D. student in Research Center for Social Computing and Interactive Robotics (SCIR), at Harbin Institute of Technology (HIT, China). I am co-advised by Prof. Ting Liu and Prof. Xiao Ding. My research interests include causal reasoning, intelligent agents (self-evolution, transfer and generalization), and slow thinking for LLMs.
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!-- # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 Three papers are accepted by ACL 2025 MAIN conference.
+- *2024.09*: &nbsp;🎉🎉 One paper is accepted by NLPCC 2024 Outstanding Paper.
+- *2024.06*: &nbsp;🎉🎉 One paper is accepted by Knowledge-Based Systems 2024.
+- *2024.03*: &nbsp;🎉🎉 One paper is accepted by ACL 2024 MAIN conference. -->
+
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+## Arxiv
+- CrossICL: Cross-Task In-Context Learning via Unsupervised Demonstration Transfer. **Jinglong Gao**, Xiao Ding, Lingxiao Zou, Bing Qin, Ting Liu.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+## 2025
+- ExpeTrans: LLMs Are Experiential Transfer Learners. **Jinglong Gao**, Xiao Ding, Lingxiao Zou, Bibo Cai, Bing Qin, Ting Liu. ACL 2025.
+- Com$^2$: A Causal-Guided Benchmark for Exploring Complex Commonsense Reasoning in Large Language Models. Kai Xiong, Xiao Ding, Yixin Cao, Yuxiong Yan, Li Du, Yufei Zhang, **Jinglong Gao**, Jiaqian Liu, Bing Qin, Ting Liu. ACL 2025.
+- Beyond Similarity: A Gradient-based Graph Method for Instruction Tuning Data Selection. Yang Zhao, Li Du, Xiao Ding, YangouOuyang, Hepeng Wang, Kai Xiong, **Jinglong Gao**, Zhouhao Sun, Dongliang Xu, Qing Yang, Dongchen Li, Bing Qin, Ting Liu. ACL 2025.
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+## 2024
+- Enhancing Complex Causality Extraction via Improved Subtask Interaction and Knowledge Fusion. **Jinglong Gao**, Chen Lu, Xiao Ding, Zhongyang Li, Ting Liu, Bing Qin. NLPCC 2024 Outstanding Paper.
+- Event Causality Identification via Competitive-Cooperative Cognition Networks. **Jinglong Gao**, Xiao Ding, Zhongyang Li, Ting Liu, Bing Qin. Knowledge-Based Systems (IF=7.6).
+- Self-Evolving GPT: A Lifelong Autonomous Experiential Learner. **Jinglong Gao**, Xiao Ding, Yiming Cui, Jianbai Zhao, Hepeng Wang, Ting Liu, Bing Qin. ACL 2024.
+- Towards Generalizable and Faithful Logic Reasoning over Natural Language via Resolution Refutation. Zhouhao Sun, Xiao Ding, Li Du, Bibo Cai, **Jinglong Gao**, Ting Liu, Qin Bing. COLING 2024.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+## 2023
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- Is chatgpt a good causal reasoner? a comprehensive evaluation. **Jinglong Gao**, Xiao Ding, Bing Qin, Ting Liu. EMNLP 2023 Findings.
+- Discrimloss: A universal loss for hard samples and incorrect samples discrimination. Tingting Wu, Xiao Ding, Hao Zhang, **Jinglong Gao**, Minji Tang, Li Du, Bing Qin, Ting Liu. IEEE Transactions on Multimedia (IF=9.7).
+
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024* NLPCC 2024 Outstanding Paper Reward
+- *2021* First-Class Graduate Academic Scholarship
+- *2016/2017/2018* First-Class People's Scholarship
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2016.09 - 2020.06*, Harbin Institute of Technology, China. Bachelor of Engineering, Computer Science.
+- *2020.09 - 2021.06*, Harbin Institute of Technology, China. Master of Engineering, Computer Science.
+  - Research Center for Social Computing and Interactive Robotics (SCIR)
+  - Advisor: Prof. Ting Liu
+- *2021.09 - Now*, Harbin Institute of Technology, China. Ph.D. Candidate
+  - Research Center for Social Computing and Interactive Robotics (SCIR)
+  - Advisors: Prof. Ting Liu and Xiao Ding
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💼 Internships
+- *2021.10 - 2022.12*, Huawei Cloud, China. AI Algorithm Engineer.
+- *2023.11 - 2024.3*, iFLYTEK Research, Beijing, China. Agent Algorithm Engineer.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 🎓 Academic Services
+- Reviewers of Top AI Conferences
+  - ACL/ARR: 2023, 2024, 2025
+  - EMNLP/ARR: 2023, 2024
+  - KDD: 2021
+  - IJCAI: 2022
+
+- Reviewers of Other Conferences
+  - CCKS
+  - NLPCC
+  - CCL
