@@ -28,6 +28,8 @@ I'm Jinglong Gao, a Ph.D. student in Research Center for Social Computing and In
 
 
 # 📝 Publications 
+## In Progress
+- Master-O1: Towards Proficient Slow Thinking for O1-like Reasoning: guide the learning mode of slow-thinking LLMs to transition from rigid and increasingly slow to a more human-like, gradually proficient state. Both performance and efficiency improve simultaneously.
 
 ## Arxiv
 - CrossICL: Cross-Task In-Context Learning via Unsupervised Demonstration Transfer. **Jinglong Gao**, Xiao Ding, Lingxiao Zou, Bing Qin, Ting Liu.
