@@ -21,6 +21,7 @@ I'm Jinglong Gao, a Ph.D. student in Research Center for Social Computing and In
 
 
 <!-- # 🔥 News
+- *2025.12*: &nbsp;🎉🎉 Awarded the Tencent Academic Scholarship.
 - *2025.05*: &nbsp;🎉🎉 Three papers are accepted by ACL 2025 MAIN conference.
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by NLPCC 2024 Outstanding Paper.
 - *2024.06*: &nbsp;🎉🎉 One paper is accepted by Knowledge-Based Systems 2024.
@@ -53,6 +54,7 @@ I'm Jinglong Gao, a Ph.D. student in Research Center for Social Computing and In
 
 
 # 🎖 Honors and Awards
+- *2025* Tencent Academic Scholarship
 - *2024* NLPCC 2024 Outstanding Paper Reward
 - *2021* First-Class Graduate Academic Scholarship
 - *2016/2017/2018* First-Class People's Scholarship
